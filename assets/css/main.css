@@ -21,6 +21,7 @@ h3 {
 
 a {
     text-decoration: none;
+    display: inline-block;
 }
 
 ul {
@@ -42,6 +43,15 @@ ul {
     border-radius: 5px;
     background-color: #F15B22;
     color: #FFF;
+    font-size: 20px;
+    padding: 12px 25px;
+}
+
+.btn-secondary {
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: #F15B22;
     font-size: 20px;
     padding: 12px 25px;
 }
@@ -129,4 +139,68 @@ ul {
 .plan-item p {
     font-size: 25px;
     color: #737272;
+}
+
+/* CTA Section  */
+.cta {
+    margin-bottom: 120px;
+}
+
+.cta-wrap {
+    padding: 50px;
+    border-radius: 8px;
+    background-image: url("../images/watch.png"), url("../images/gradient2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, right center;
+    background-blend-mode:overlay
+}
+
+.cta-wrap h2 {
+    color: #FFF;
+    max-width: 450px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #151414;
+    padding: 120px 0;
+}
+
+.footer-content {
+    width: 70%;
+}
+
+.footer h2,
+.footer h3,
+.footer p,
+.footer li {
+    color: #FFF;
+}
+
+.footer-content p {
+    max-width: 480px;
+}
+
+.footer-content li a {
+    color: #FFF;
+}
+
+.footer-content li img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer-form {
+    width: 30%;
+}
+
+.footer-form input[type="email"] {
+    width: 100%;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 15px 20px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    display: block;
 }
