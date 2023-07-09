@@ -11,8 +11,21 @@ h1, h2, h3, h4 {
     color: #151414;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 a {
     text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
 }
 
 .container {
@@ -31,6 +44,10 @@ a {
     color: #FFF;
     font-size: 20px;
     padding: 12px 25px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .text-end {
@@ -59,6 +76,7 @@ a {
     background-position: left bottom;
     background-repeat: no-repeat;
     padding: 190px 0;
+    margin-bottom: 120px;
 }
 
 .header-content {
@@ -68,4 +86,47 @@ a {
 
 .header-content h1 {
     font-size: 65px;
+}
+
+/* About Section */
+.about {
+    margin-bottom: 120px;
+}
+
+.about-content {
+    align-items: center;
+}
+
+.about-content div {
+    width: 50%;
+}
+
+.about-services li {
+    padding-left: 30px;
+    background-image: url("../images/icons/check-mark.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left center;
+}
+
+.about-services li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.about-content p {
+    max-width: 400px;
+}
+
+/* Plan Section */
+.plans {
+    margin-bottom: 120px;
+}
+
+.plan-item {
+    width: 25%;
+}
+
+.plan-item p {
+    font-size: 25px;
+    color: #737272;
 }
